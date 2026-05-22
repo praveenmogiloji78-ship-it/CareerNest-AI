@@ -8,7 +8,7 @@ function Jobs() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/api/jobs")
+      .get("https://careernest-ai-1.onrender.com/api/jobs")
       .then((res) => {
         setJobs(res.data);
       })

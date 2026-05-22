@@ -29,7 +29,7 @@ function PostJob() {
     try {
 
       await axios.post(
-        "http://localhost:5000/api/jobs/add",
+        "https://careernest-ai-1.onrender.com/api/jobs/add",
         formData
       );
 
@@ -81,7 +81,7 @@ function PostJob() {
               color: "#f59e0b",
             }}
           >
-            Post New Job 
+            Post New Job
           </h1>
 
           <p style={{ color: "#cbd5e1" }}>
